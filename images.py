@@ -12,7 +12,7 @@ filtered_img = img.filter(ImageFilter.BLUR)
 filtered_img.save("blur.png", "png")
 
 # Re-open the original image
-img = Image.open("pikachu.jpg")  # You need to re-open the original image
+img = Image.open("pikachu.jpg") 
 
 # Applying the image filter: Smooth
 filtered_img = img.filter(ImageFilter.SMOOTH)
@@ -29,7 +29,7 @@ filtered_img.save("sharpen.png", "png")
 img = Image.open("pikachu.jpg")
 
 # Rotating the image
-crooked = img.rotate(270)  # Rotate the original image
+crooked = img.rotate(270) 
 crooked.save("rotate.png", "png")
 
 # Re-open the original image again
